@@ -26,3 +26,19 @@ body {
   left: -60px;
   background: linear-gradient(#e524c3, #8626b2);
 }
+
+@keyframes move-up {
+  to {
+    transform: translate(-10px);
+  }
+}
+
+.container .circle:nth-child(2) {
+  width: 120px;
+  height: 120px;
+  bottom: -20px;
+  right: -20px;
+  background: linear-gradient(#d64612, #e48307);
+  animation-name: move-down;
+}
+
