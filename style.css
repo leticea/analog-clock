@@ -80,7 +80,29 @@ body {
   z-index: 15; /* especifica a ordem da pilha de um elemento do anúncio */
 }
 
+.clock .hour,
+.clock .minute,
+.clock .second {
+  position: absolute;
+}
 
+.clock .hour,
+.clock .hour .hr {
+  width: 160px;
+  height: 160px;
+}
+
+.clock .minute,
+.clock .minute .min {
+  width: 190px;
+  height: 190px;
+}
+
+.clock .second,
+.clock .second .sec {
+  width: 230px;
+  height: 230px;
+}
 
 
 
