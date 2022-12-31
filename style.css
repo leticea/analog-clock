@@ -11,3 +11,18 @@ body {
   justify-content: center;
   background: #111;
 }
+
+.container .circle {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  animation: 2s ease-in infinite alternate;
+}
+
+.container .circle:nth-child(1) {
+  width: 180px;
+  height: 180px;
+  top: -60px;
+  left: -60px;
+  background: linear-gradient(#e524c3, #8626b2);
+}
