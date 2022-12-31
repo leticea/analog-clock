@@ -11,6 +11,5 @@ setInterval(() => {
 
   hr.style.transform = `rotateZ(${hh + (mm / 12)}deg)`;
   min.style.transform = `rotateZ(${mm}deg)`;
-  sec.style.transform = `rotateZ(${ss}deg)`;
-  
+  sec.style.transform = `rotateZ(${ss}deg)`;  
 });
