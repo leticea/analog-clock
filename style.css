@@ -104,5 +104,22 @@ body {
   height: 230px;
 }
 
+.clock .hour .hr,
+.clock .minute .min,
+.clock .second .sec {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  border-radius: 50%;
+}
 
+.clock .hour .hr::before {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 80px;
+  background: #ff3d68;
+  z-index: 10;
+  border-radius: 10px;
+}
 
