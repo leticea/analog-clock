@@ -123,3 +123,22 @@ body {
   border-radius: 10px;
 }
 
+.clock .minute .min::before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 90px;
+  background: #39a2db;
+  z-index: 11;
+  border-radius: 8px;
+}
+
+.clock .second .sec::before {  
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 140px;
+  background: #fff;
+  z-index: 12;
+  border-radius: 2px;
+}
