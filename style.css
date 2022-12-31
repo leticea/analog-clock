@@ -12,6 +12,10 @@ body {
   background: #111;
 }
 
+.container {
+  position: relative;
+}
+
 .container .circle {
   position: absolute;
   border-radius: 50%;
@@ -60,4 +64,6 @@ body {
   background: rgba(255, 255, 255, 0.05);
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 }
+
+
 
